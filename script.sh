@@ -2,13 +2,13 @@
 #Some fixes by @RoyalBoy69
 
 
-repo="USERGE-X"
+repo="HyperTerminator-X"
 rm -rf ${repo}
 
-echo "You're running the USERGE-X Updater script"
+echo "You're Running The HyperTerminator-X Updater Script"
 echo " "
 # Get username of user
-echo -n "Enter your GitHub username: "
+echo -n "HyperNotShroudX97: "
 read userName
 echo " "
 
@@ -18,8 +18,8 @@ read fork
 echo " "
 
 if [[ "${fork}" == 'y' ]]; then
-	git clone https://github.com/${userName}/${repo}.git
-	cd ${repo}
+	git clone https://github.com/${HyperNotShroudX97}/${HyperTerminator-X}.git
+	cd ${HyperTerminator-X}
 elif [[ "${fork}" == 'n' ]]; then
 	echo -n "Enter your repo name: "
 	read repo
@@ -32,12 +32,12 @@ else
 fi
 
 echo " "
-echo "Updating your USERGE-X"
+echo "Updating Your HyperTerminator-X"
 git pull https://github.com/code-rgb/USERGE-X.git
 git diff
-git commit -m "😎"
+git commit -m "Stable_HTX_Updated"
 git push
 echo " "
-echo "Updated"
+echo "Updated HTX"
 cd ..
-rm -rf ${repo}
+rm -rf ${https://github.com/${HyperNotShroudX97}/${HyperTerminator-X}
