@@ -3,7 +3,7 @@
 
 
 repo="HyperTerminator-X"
-rm -rf ${repo}
+rm -rf ${https://github.com/${HyperNotShroudX97}/${HyperTerminator-X}
 
 echo "You're Running The HyperTerminator-X Updater Script"
 echo " "
